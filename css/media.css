@@ -1,0 +1,424 @@
+@media screen and (max-width:1670px) {
+    .header__left{
+        padding-left: 110px;
+        width: 60%;
+    }
+    .header__right{
+        width: 40%;
+    }
+    .about{
+        padding-left: 110px;
+    }
+    .portfolio{
+        padding-left: 110px;
+    }
+    .stages{
+        padding-left: 110px;
+    }
+}
+
+@media screen and (max-width:1300px){
+    .menu{
+        width: 400px;
+        height: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: auto;
+        bottom: 10px;
+        flex-direction: row;
+    }
+    .header__container{
+        padding: 20px;
+    }
+    .header__left{
+        padding-left: 0px;
+        padding: 20px;
+    }
+    .about{
+        padding-left: 0px;
+    }
+    .portfolio{
+        padding-left: 0px;
+    }
+    .stages{
+        padding-left: 0px;
+    }
+    .portfolio__img-container{
+        height: 600px;
+    }
+    .stages__container{
+        grid-template-rows: 350px 350px 350px;
+    }
+    footer{
+        padding-bottom: 200px;
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .header-pannel{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1100px){
+    .about_6 img{
+        width: 59%;
+        height: 50%;
+    }
+    .about_7{
+        padding: 20px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .stages__container{
+        grid-template-rows: 300px 300px 300px;
+    }
+}
+
+@media screen and (max-width:900px){
+    h1{
+    font-size: 2.5rem;
+    }
+    .header__left-button{
+        width: 120px;
+        height: 120px;
+    }
+    .about__container{
+        grid-template-rows: repeat(6, 200px);
+    }
+    .about_6 img{
+        width: 49%;
+        height: 37%;
+    }
+    .about_3 h3{
+        margin-top: -120px;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    .number-1, .number-2, .number-3{
+        font-size: 6rem;
+    }
+    .word-1, .word-2, .word-3{
+        font-size: 1.5rem;
+    }
+    .portfolio__img-container{
+        height: 500px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .stages__container{
+        grid-template-rows: 250px 250px 250px;
+    }
+    .portfolio-1-label, .portfolio-2-label, .portfolio-3-label{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:750px){
+    .portfolio__img-container{
+        height: 400px;
+    }
+    .stages__container{
+        grid-template-rows: 200px 200px 200px;
+    }
+    .number-1, .number-2, .number-3{
+        font-size: 4rem;
+        top: 25px;
+        left: 25px;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    .word-1, .word-2, .word-3{
+        font-size: 1rem;
+        bottom: 35px;
+        right: 35px;
+    }
+}
+
+@media screen and (max-width:700px){
+    .about__container{
+        grid-template-rows: repeat(6, 150px);
+    }
+    .about_5-circle{
+        transform: scale(0.7);
+        right: 50px;
+        box-shadow: 0px 0px 7px black;
+    }
+}
+
+@media screen and (max-width:650px){
+    .about_6 img{
+        display: none;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about_5-circle{
+        transform: scale(0.5);
+        right: 110px;
+        box-shadow: 0px 0px 10px black;
+    }
+    .header__container{
+    flex-direction: column;
+    margin-top: -150px;
+    }
+    .header__left{
+        width: 100%;
+    }
+    .header__left-button{
+        display: none;
+        text-align: center;
+    }
+    .header__right{
+        width: 80%;
+        margin-top: -120px;
+    }
+    .top-bar__rolled__form{
+        width: 400px;
+    }
+    .top-bar__rolled__form button{
+        display: block;
+        margin: auto;
+        margin: 80px auto auto;
+        font-size: 1.5rem;
+    }
+    .top-bar__rolled__form h3{
+        font-size: 2rem;
+    }
+    .about__container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 350px);
+    max-width: 1200px;
+    padding: 10px;
+    grid-template-areas: 
+        "a1"
+        "a1"
+        "a2"
+        "a3"
+        "a4"
+        "a6"
+        "a7"
+        "a8"
+    ;
+    gap: 5px;
+    margin: auto;
+    }
+    .about_5{
+        display: none;
+    }
+    .about_1 img{
+        display: block;
+        margin: auto;
+    }
+    .about_1 h2{
+    text-align: center;
+    margin-top: 15px;
+    }
+    .about_1 p{
+        text-align: center;
+        margin: 20px 0;
+    }
+    .about_2 img{
+        height: 85%;
+        width: 45%;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    .about_2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .about_2 h3{
+        font-size: 1.5rem;
+        margin-right: 19px;
+    }
+    .about_2 p{
+        width: 40%;
+        text-align: left;
+    }
+    .about_3 {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .about_3 img{
+        height: 75%;
+        width: 50%;
+        margin-top: -11px;
+    }
+    .about_3 h3{
+        margin: 20px auto;
+        transform: rotate(0deg);
+        font-size: 2rem;
+    }
+    .about_6{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+    .about_6 p{
+        text-align: center;
+        width: 300px;
+        margin-top: 20px;
+    }
+    .about_6 h3{
+        text-align: center;
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    .about_7 h3{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:550px){
+    .stages__container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(7, 350px);
+        max-width: 1200px;
+        padding: 10px;
+        grid-template-areas: 
+            "s1"
+            "s1"
+            "s1"
+            "s2"
+            "s4"
+            "s6"
+            "s5"
+        ;
+        gap: 5px;
+        margin: auto;
+    }
+    .stages-1 img{
+        width: 90%;
+        position: absolute;
+        bottom: 0.3%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .word-1, .word-2, .word-3{
+        text-align: center;
+        font-size: 5rem;
+        font-weight: bold;
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        transform: translateY(-50%);
+    }
+    .number-1, .number-2, .number-3{
+        display: none;
+    }
+}
+
+@media screen and (max-width:500px){
+    .stages__container{
+        grid-template-rows: repeat(7, 300px);
+    }
+    .word-1, .word-2, .word-3{
+        font-size: 4rem;
+    }
+    .about__container{
+        grid-template-rows: repeat(8, 250px);
+    }
+    .portfolio__img-container{
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:450px){
+    .stages__container{
+        grid-template-rows: repeat(7, 250px);
+    }
+    .word-1, .word-2, .word-3{
+        font-size: 3rem;
+    }
+    .about_2 h3{
+        margin-right: -10px;
+    }
+    .menu p{
+        display: none;
+    }
+    .menu{
+        width: 300px;
+        height: 70px;
+    }
+    .portfolio-1-label, .portfolio-2-label, .portfolio-3-label{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:400px){
+    .stages__container{
+        grid-template-rows: repeat(7, 200px);
+    }
+    .word-1, .word-2, .word-3{
+        font-size: 2.5rem;
+    }
+    .about_2 h3{
+        margin-right: -25px;
+    }
+    .about__container{
+        grid-template-rows: repeat(8, 200px);
+    }
+    .top-bar__left img{
+        width: 120px;
+    }
+}
+
+@media screen and (max-width:375px){
+    html{
+        font-size: 14px;
+    }
+    .top-bar__label::after{
+        display: none;
+    }
+    .top-bar__label{
+        width: 50px;
+    }
+    .portfolio__img-container{
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:350px){
+    .stages__container{
+        grid-template-rows: repeat(7, 175px);
+    }
+    .about_2 h3{
+        margin-right: -5px;
+        font-size: 1.2rem;
+    }
+    .about_3 img{
+        height: 50%;
+        width: 33%;
+        margin-right: 50px;
+    }
+    .about__container{
+        grid-template-columns: 310px;
+    }
+    .top-bar__rolled__form{
+        width: 300px;
+    }
+    .top-bar__rolled__form button{
+        margin: 40px auto auto;
+    }        
+}
